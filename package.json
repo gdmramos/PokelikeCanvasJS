@@ -1,0 +1,26 @@
+{
+  "name": "pokelike-canvas",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "Studying a bit about game development using canvas, and playing around with some JS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdmramos/pokelike-canvas-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdmramos/pokelike-canvas-js/issues"
+  },
+  "homepage": "https://github.com/gdmramos/pokelike-canvas-js#readme",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}
