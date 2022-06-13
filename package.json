@@ -1,12 +1,12 @@
 {
   "name": "pokelike-canvas",
   "version": "1.0.0",
-  "source": "src/index.html",
+  "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "Studying a bit about game development using canvas, and playing around with some JS.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel index.html --open",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,12 @@
     "url": "https://github.com/gdmramos/pokelike-canvas-js/issues"
   },
   "homepage": "https://github.com/gdmramos/pokelike-canvas-js#readme",
+  "dependencies": { "parcel-bundler": "^1.6.1" },
   "devDependencies": {
-    "parcel": "^2.6.0"
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
   }
 }
